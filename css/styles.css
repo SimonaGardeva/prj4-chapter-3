@@ -1,0 +1,67 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: purple;
+font-family: "Times New Roman", Times, serif;
+font-size: 60px;
+letter-spacing: 2.2px;
+word-spacing: 0.2px;
+color: purple;
+font-weight: 400;
+font-style: normal;
+font-variant: small-caps;
+  
+}
+
+h2 {
+  color: purple;
+font-family: "Times New Roman", Times, serif;
+font-size: 25px;
+letter-spacing: 2.2px;
+word-spacing: 0.2px;
+color: purple;
+font-weight: 400;
+font-style: normal;
+font-variant: small-caps;
+border: blue 6px solid;
+  
+}
+
+h3 {
+  color: navy;
+font-family: "Times New Roman", Times, serif;
+font-size: 20px;
+letter-spacing: 2.2px;
+word-spacing: 0.2px;
+color: purple;
+font-weight: 400;
+font-style: normal;
+font-variant: small-caps;
+  
+}
+
+
+div {
+font-family: "Times New Roman", Times, serif;
+font-size: 16px;
+letter-spacing: 2.2px;
+word-spacing: 0.2px;
+color: purple;
+font-weight: 400;
+font-style: normal;
+font-variant: small-caps;
+}
+
+
+.parent {
+display: grid;
+grid-template-columns: 10fr 5fr repeat(3, 1fr);
+grid-template-rows: 5fr repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
